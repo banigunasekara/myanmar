@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Premium Hospitality Talent for the Maldives</title>
+    <!-- Tailwind CSS for styling -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Poppins', 'sans-serif'],
+                    },
+                    colors: {
+                        primary: '#0e7490', // Cyan-700
+                        secondary: '#0891b2', // Cyan-600
+                        dark: '#0f172a', // Slate-900
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        .hero-bg {
+            /* Stunning Myanmar (Bagan) background with a dark overlay for text readability */
+            background-image: linear-gradient(rgba(15, 23, 42, 0.85), rgba(15, 23, 42, 0.65)), url('https://images.unsplash.com/photo-1552465011-b4e21bf6e79a?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+        }
+        .maldives-bg {
+            /* Resort themed background for the call-to-action card */
+            background-image: linear-gradient(rgba(8, 145, 178, 0.9), rgba(29, 78, 216, 0.9)), url('https://images.unsplash.com/photo-1514282401047-d79a71a590e8?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80');
+            background-size: cover;
+            background-position: center;
+        }
+        .glass-card {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-800 font-sans antialiased selection:bg-primary selection:text-white">
+
+    <!-- Floating Contact Actions (Sticky Bottom Right) -->
+    <div class="fixed bottom-4 right-4 md:bottom-6 md:right-6 flex flex-col gap-3 z-50">
+        <a href="https://wa.me/959446988791" target="_blank" class="w-12 h-12 md:w-14 md:h-14 bg-green-500 text-white rounded-full flex items-center justify-center shadow-lg hover:bg-green-600 hover:scale-110 transition-all duration-300">
+            <i class="fab fa-whatsapp text-2xl md:text-3xl"></i>
+        </a>
+        <a href="viber://chat?number=%2B959446988791" class="w-12 h-12 md:w-14 md:h-14 bg-purple-600 text-white rounded-full flex items-center justify-center shadow-lg hover:bg-purple-700 hover:scale-110 transition-all duration-300">
+            <i class="fab fa-viber text-2xl md:text-3xl"></i>
+        </a>
+        <a href="tel:+959446988791" class="w-12 h-12 md:w-14 md:h-14 bg-blue-500 text-white rounded-full flex items-center justify-center shadow-lg hover:bg-blue-600 hover:scale-110 transition-all duration-300">
+            <i class="fas fa-phone-alt text-xl md:text-2xl"></i>
+        </a>
+    </div>
+
+    <!-- Hero Section -->
+    <header class="hero-bg text-white pt-24 pb-32 px-4 sm:px-6 lg:px-8 relative overflow-hidden">
+        <div class="max-w-5xl mx-auto text-center relative z-10">
+            <span class="inline-block py-1 px-3 rounded-full bg-primary/40 border border-primary/50 text-cyan-200 text-xs sm:text-sm font-semibold tracking-wider mb-6 backdrop-blur-sm shadow-lg">
+                EXCLUSIVE MANPOWER SOURCING
+            </span>
+            <h1 class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6 drop-shadow-lg">
+                Elevate Your Guest Experience with <span class="text-cyan-400">Premium Talent</span>
+            </h1>
+            <p class="text-base sm:text-lg md:text-xl text-slate-200 max-w-3xl mx-auto mb-10 leading-relaxed px-2 drop-shadow-md">
+                Hello, I am Kavindu, based right here in the Maldives. If your esteemed resort, hotel, safari, guest house, or coffee shop is seeking trustworthy, honest, well-groomed, and professionally trained talent from Myanmar, I am here to help. We provide highly qualified candidates ready to seamlessly integrate into your operations.
+            </p>
+            <div class="flex flex-col sm:flex-row justify-center items-center gap-4">
+                <a href="https://wa.me/959446988791" class="px-8 py-4 bg-cyan-500 hover:bg-cyan-600 text-white font-semibold rounded-lg shadow-lg hover:shadow-cyan-500/30 transition-all flex items-center gap-2 w-full sm:w-auto justify-center">
+                    <i class="fab fa-whatsapp text-xl"></i> Message on WhatsApp
+                </a>
+                <a href="mailto:kavindu@gmail.com" class="px-8 py-4 bg-white/10 hover:bg-white/20 border border-white/20 text-white font-semibold rounded-lg backdrop-blur-sm transition-all flex items-center gap-2 w-full sm:w-auto justify-center">
+                    <i class="far fa-envelope text-xl"></i> Email Inquiry
+                </a>
+            </div>
+        </div>
+        
+        <!-- Decorative Background Elements -->
+        <div class="absolute top-0 left-0 w-full h-full overflow-hidden pointer-events-none z-0">
+            <div class="absolute -top-[20%] -right-[10%] w-[50%] h-[50%] rounded-full bg-cyan-600/30 blur-[120px]"></div>
+            <div class="absolute bottom-[10%] -left-[10%] w-[40%] h-[40%] rounded-full bg-blue-600/30 blur-[120px]"></div>
+        </div>
+    </header>
+
+    <!-- Video Advertisement Section -->
+    <section class="py-16 px-4 bg-slate-50 -mt-10 relative z-20">
+        <div class="max-w-4xl mx-auto">
+            <div class="bg-white p-4 rounded-2xl shadow-xl ring-1 ring-slate-900/5">
+                <!-- NOTE FOR DEPLOYMENT: For Netlify, keep the video in the same folder as this HTML file and use src="vedio.mp4" -->
+                <video 
+                    controls 
+                    autoplay 
+                    muted 
+                    loop 
+                    class="w-full h-auto rounded-xl object-cover bg-slate-900 aspect-video shadow-inner"
+                    poster="https://images.unsplash.com/photo-1542314831-c6a4d27160c9?auto=format&fit=crop&q=80&w=1000">
+                    <source src="vedio.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <div class="text-center mt-4 text-sm text-slate-500">
+                    Watch our candidate showcase & training standards
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Image Showcase Section -->
+    <section class="py-8 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
+        <div class="text-center mb-10">
+            <h2 class="text-3xl md:text-4xl font-bold text-slate-900 mb-4">Exceptional Grooming & Training</h2>
+            <p class="text-slate-600 max-w-2xl mx-auto">A glimpse into our professional standards and the quality of talent we deliver to your establishment.</p>
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div class="rounded-2xl overflow-hidden shadow-lg border border-slate-100 group">
+                <img src="image1.png" alt="Hospitality Training Standard 1" class="w-full h-64 sm:h-72 object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out">
+            </div>
+            <div class="rounded-2xl overflow-hidden shadow-lg border border-slate-100 group">
+                <img src="image2.png" alt="Hospitality Training Standard 2" class="w-full h-64 sm:h-72 object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out">
+            </div>
+            <div class="rounded-2xl overflow-hidden shadow-lg border border-slate-100 group sm:col-span-2 lg:col-span-1">
+                <img src="image3.png" alt="Hospitality Training Standard 3" class="w-full h-64 sm:h-72 object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out">
+            </div>
+        </div>
+    </section>
+
+    <!-- Talent Categories Section -->
+    <section class="py-16 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
+        <div class="text-center mb-16">
+            <h2 class="text-3xl md:text-4xl font-bold text-slate-900 mb-4">Specialized Human Capital Categories</h2>
+            <p class="text-slate-600 max-w-2xl mx-auto">We supply highly trained individuals equipped with modern hospitality skills, ready to deploy across various departments.</p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            
+            <!-- Category 1 -->
+            <div class="bg-white rounded-2xl p-8 shadow-md border border-slate-100 hover:shadow-xl transition-shadow duration-300 group">
+                <div class="w-14 h-14 bg-cyan-100 text-primary rounded-xl flex items-center justify-center text-2xl mb-6 group-hover:scale-110 transition-transform">
+                    <i class="fas fa-concierge-bell"></i>
+                </div>
+                <h3 class="text-xl font-bold text-slate-900 mb-3">Front Office & Reception</h3>
+                <ul class="space-y-2 text-slate-600 text-sm mb-6">
+                    <li><i class="fas fa-check text-green-500 mr-2"></i> <strong>Opera System</strong> Trained</li>
+                    <li><i class="fas fa-check text-green-500 mr-2"></i> Professional Grooming & Etiquette</li>
+                    <li><i class="fas fa-check text-green-500 mr-2"></i> Guest Relations Management</li>
+                    <li><i class="fas fa-check text-green-500 mr-2"></i> Fluent English Communication</li>
+                </ul>
+            </div>
+
+            <!-- Category 2 -->
+            <div class="bg-white rounded-2xl p-8 shadow-md border border-slate-100 hover:shadow-xl transition-shadow duration-300 group">
+                <div class="w-14 h-14 bg-cyan-100 text-primary rounded-xl flex items-center justify-center text-2xl mb-6 group-hover:scale-110 transition-transform">
+                    <i class="fas fa-glass-cheers"></i>
+                </div>
+                <h3 class="text-xl font-bold text-slate-900 mb-3">Food & Beverage Service</h3>
+                <ul class="space-y-2 text-slate-600 text-sm mb-6">
+                    <li><i class="fas fa-check text-green-500 mr-2"></i> ASEAN Standard F&B Certified</li>
+                    <li><i class="fas fa-check text-green-500 mr-2"></i> Fine Dining & Banquet Service</li>
+                    <li><i class="fas fa-check text-green-500 mr-2"></i> Wine & Cigar Basics</li>
+                    <li><i class="fas fa-check text-green-500 mr-2"></i> Exceptional Table Manners</li>
+                </ul>
+            </div>
+
+            <!-- Category 3 -->
+            <div class="bg-white rounded-2xl p-8 shadow-md border border-slate-100 hover:shadow-xl transition-shadow duration-300 group">
+                <div class="w-14 h-14 bg-cyan-100 text-primary rounded-xl flex items-center justify-center text-2xl mb-6 group-hover:scale-110 transition-transform">
+                    <i class="fas fa-coffee"></i>
+                </div>
+                <h3 class="text-xl font-bold text-slate-900 mb-3">Professional Baristas</h3>
+                <ul class="space-y-2 text-slate-600 text-sm mb-6">
+                    <li><i class="fas fa-check text-green-500 mr-2"></i> Advanced Latte Art</li>
+                    <li><i class="fas fa-check text-green-500 mr-2"></i> Extensive Hot/Cold Coffee Menu</li>
+                    <li><i class="fas fa-check text-green-500 mr-2"></i> Smoothies, Mocktails & Bubbles</li>
+                    <li><i class="fas fa-check text-green-500 mr-2"></i> Syphon & Clever Dripper Skills</li>
+                </ul>
+            </div>
+
+            <!-- Category 4 -->
+            <div class="bg-white rounded-2xl p-8 shadow-md border border-slate-100 hover:shadow-xl transition-shadow duration-300 group">
+                <div class="w-14 h-14 bg-cyan-100 text-primary rounded-xl flex items-center justify-center text-2xl mb-6 group-hover:scale-110 transition-transform">
+                    <i class="fas fa-cocktail"></i>
+                </div>
+                <h3 class="text-xl font-bold text-slate-900 mb-3">Mixologists & Bartenders</h3>
+                <ul class="space-y-2 text-slate-600 text-sm mb-6">
+                    <li><i class="fas fa-check text-green-500 mr-2"></i> Signature Cocktail Creation</li>
+                    <li><i class="fas fa-check text-green-500 mr-2"></i> Food Safety & HACCP Trained</li>
+                    <li><i class="fas fa-check text-green-500 mr-2"></i> Shisha / Hookah Preparation</li>
+                    <li><i class="fas fa-check text-green-500 mr-2"></i> Fast-Paced Bar Operations</li>
+                </ul>
+            </div>
+
+            <!-- Category 5 -->
+            <div class="bg-white rounded-2xl p-8 shadow-md border border-slate-100 hover:shadow-xl transition-shadow duration-300 group">
+                <div class="w-14 h-14 bg-cyan-100 text-primary rounded-xl flex items-center justify-center text-2xl mb-6 group-hover:scale-110 transition-transform">
+                    <i class="fas fa-broom"></i>
+                </div>
+                <h3 class="text-xl font-bold text-slate-900 mb-3">Housekeeping Operations</h3>
+                <ul class="space-y-2 text-slate-600 text-sm mb-6">
+                    <li><i class="fas fa-check text-green-500 mr-2"></i> ASEAN Standard Operations</li>
+                    <li><i class="fas fa-check text-green-500 mr-2"></i> Detail-Oriented Cleaning</li>
+                    <li><i class="fas fa-check text-green-500 mr-2"></i> Luxury Room Preparation</li>
+                    <li><i class="fas fa-check text-green-500 mr-2"></i> Positive Attitude & Discretion</li>
+                </ul>
+            </div>
+
+            <!-- Value Prop Card -->
+            <div class="maldives-bg rounded-2xl p-8 sm:p-10 shadow-lg text-white flex flex-col justify-center items-center text-center">
+                <h3 class="text-2xl sm:text-3xl font-bold mb-4">Why Choose Us?</h3>
+                <p class="text-cyan-50 mb-8 text-sm sm:text-base leading-relaxed max-w-md drop-shadow-md">
+                    We handle the rigorous screening. Every candidate is pre-vetted for attitude, personal grooming, interview readiness, and core competency. 
+                </p>
+                <a href="tel:+959446988791" class="px-8 py-3 bg-white text-blue-800 font-bold rounded-full hover:bg-cyan-50 hover:scale-105 transition-all shadow-xl">
+                    Request Staff Now
+                </a>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Call to Action / Footer -->
+    <footer class="bg-slate-900 text-white pt-16 pb-8 border-t border-slate-800 mt-12">
+        <div class="max-w-4xl mx-auto px-4 text-center">
+            <h2 class="text-3xl font-bold mb-6">Ready to staff your property?</h2>
+            <p class="text-slate-400 mb-10 max-w-2xl mx-auto">
+                Reach out directly with your vacancy requirements. We will quickly align you with the right candidates perfectly matching your hospitality standards.
+            </p>
+            
+            <div class="flex flex-col sm:flex-row justify-center items-center gap-6 mb-16">
+                <div class="flex items-center gap-3 bg-slate-800 py-3 px-6 rounded-lg w-full sm:w-auto">
+                    <i class="fas fa-phone text-cyan-400"></i>
+                    <a href="tel:+959446988791" class="font-medium hover:text-cyan-400 transition-colors">+95 9 44698 8791</a>
+                </div>
+                <div class="flex items-center gap-3 bg-slate-800 py-3 px-6 rounded-lg w-full sm:w-auto">
+                    <i class="fas fa-envelope text-cyan-400"></i>
+                    <a href="mailto:kavindu@gmail.com" class="font-medium hover:text-cyan-400 transition-colors">kavindu@gmail.com</a>
+                </div>
+            </div>
+
+            <p class="text-slate-600 text-sm">
+                &copy; <script>document.write(new Date().getFullYear())</script> Kavindu Manpower Solutions Maldives. All rights reserved.
+            </p>
+        </div>
+    </footer>
+
+</body>
+</html>
